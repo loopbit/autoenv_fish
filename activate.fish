@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 
 set AUTOENV_AUTH_FILE ~/.autoenv_authorized
 if [ -z "$AUTOENV_ENV_FILENAME" ]
