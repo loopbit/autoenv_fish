@@ -67,7 +67,6 @@ function autoenv_check_authz
 end
 
 function autoenv_check_authz_and_run
-  # typeset envfile
   set envfile $argv[1]
   if autoenv_check_authz "$envfile"
     autoenv_source "$envfile"
